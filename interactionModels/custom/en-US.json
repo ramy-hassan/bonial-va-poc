@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "kaufda skill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "RetailerAudioStoryIntent",
+          "slots": [
+            {
+              "name": "retailer_name",
+              "type": "AMAZON.Corporation"
+            }
+          ],
+          "samples": [
+            "{retailer_name}",
+            "{retailer_name} offers on kaufda",
+            "Show me {retailer_name} offers on kaufda",
+            "{retailer_name}  deals",
+            "{retailer_name}  offers",
+            "best offers"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "16"
+}
